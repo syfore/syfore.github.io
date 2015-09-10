@@ -4859,16 +4859,17 @@ a.badge:focus {
 }
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: inherit;
   background-color: #eee;
+
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 21px;
   font-weight: 200;
 }
