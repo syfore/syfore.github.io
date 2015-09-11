@@ -32,7 +32,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -52,10 +52,14 @@
                 <li>
                     <a href="index.html">HOME</a>
                 </li>
-                <li>
-                    <a href="cloud.html">CLOUD SERVICES</a>
-                  </li>
-
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEB DEVELOPMENT <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="website.html">WEBSITE</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="cloud.html">CLOUD</a></li>
+                  </ul>
+                </li>
                   <li>
                       <a href="projects.html">PROJECTS</a>
                   </li>
@@ -90,23 +94,14 @@
 
       </div>
     <!-- Page Content -->
-    <div class="container">
 
-        <!-- Portfolio Item Heading -->
+      <div class="container">
 
-        <!-- /.row -->
-
-        <!-- Portfolio Item Row -->
-        <div class="row">
-
-
-
-
-
-            <div class="well">
-                <h3>Pirkanmaan Kotihuolto Oy</h3>
+            <div class="row">
+            <div class="col-md-8">
+                <h4><img style="max-width:100px;" src="images/pirkanmaankotihuolto.gif"> PIRKANMAAN KOTIHUOLTO OY</h4>
                 <p>IT consulting and development</p>
-                <h4>Project Details</h4>
+                <h6>PROJECT DETAILS</h6>
                 <ul>
                     <li>Web site development and hosting (<a href="http://www.pirkanmaankotihuolto.fi">pirkanmaankotihuolto.fi</a>)</li>
                     <li>Realtime chat for customer service</li>
@@ -115,7 +110,8 @@
             </div>
 
         </div>
-        <!-- /.row -->
+        </div>
+
 
 
 
@@ -124,10 +120,10 @@
         <hr>
 
         <footer>
-            <div class="navbar navbar-inverse  navbar-fixed-bottom">
+            <div class="navbar   navbar-static-bottom">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; 2015 Syfore</p>
+                    <p> &copy; 2015 Syfore</p>
                 </div>
             </div>
             </div>
