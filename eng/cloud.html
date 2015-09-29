@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 
@@ -17,10 +17,10 @@
     <title>Syfore</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
+    <link href="../css/portfolio-item.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,20 +43,29 @@
                   <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.html" ><img style="max-width:100px; margin-top: -50px;"
-                src="images/syfore.png">
+                src="../images/syfore.png">
     </a>
           </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav" >
-                <li>
-                    <a href="kotisivut.html">VERKKOSIVUT</a>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEB DEVELOPMENT <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="website.html">WEBSITE</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="cloud.html">CLOUD</a></li>
+                  </ul>
                 </li>
                   <li>
-                      <a href="projektit.html">PROJEKTIT</a>
+                      <a href="projects.html">PROJECTS</a>
+                  </li>
+                  <li>
+                      <a href="products.html">PRODUCTS</a>
                   </li>
 
                   <li>
-                      <a href="yhteystiedot.html">YHTEYSTIEDOT</a>
+                      <a href="contact.html">CONTACT</a>
                   </li>
                   <li>
                     <a href="index.html"><span class="glyphicon glyphicon-home"></span>  </a>
@@ -65,11 +74,11 @@
                     <a href="mailto:info@syfore.fi">  <span class="glyphicon glyphicon-envelope"></span></a>
                   </li>
                   <li>
-                    <a href="eng/index.html">  ENG</span></a>
+                    <a href="../index.html">  FI</a>
                   </li>
               </ul>
           </div>
-        <!-- /.navbar-collapse -->
+          <!-- /.navbar-collapse -->
       </div>
       <!-- /.container -->
   </nav>
@@ -87,49 +96,48 @@
       </div>
 
       <div class="container">
-        <div class="row">
-        <div class="col-md-6">
-    <h4>KOTISIVUT</h4>
+    <h3><img style="max-width:60px;" src="../images/storage1.png"> Cloud storages</h3>
+                <ul>
+                    <li>Parse.com</li>
+                    <li>Firebase</li>
 
-<p>Suunnittelemme ja toteutamme käyttäjä- ja mobiiliystävällisiä kotisivuja.</p>
-<p>Kaikki kotisivumme ovat responsiivisia ja toteutettu yleisimmillä WEB-tekniikoilla: HTML, CSS, JavaScript ja Twitter Bootstrap.</p>
-
-<p >
-  <ul class="list-unstyled">
-    <li><span class="glyphicon glyphicon-ok"></span>   Rakenne, ulkoasu ja sisältö</li>
-    <li><span class="glyphicon glyphicon-ok"></span>   Yhteystieto- ja palautelomakkeet</li>
-    <li><span class="glyphicon glyphicon-ok"></span>   Logo tai banneri</li>
-    <li><span class="glyphicon glyphicon-ok"></span>   Oma domain nimi (verkko-osoite)</li>
-    <li><span class="glyphicon glyphicon-ok"></span>   Sivuston ylläpito ja hosting-palvelu</li>
-  </ul>
-</p>
-
-<img style="max-width:300px;" src="images/screens.png">
+                    <li>Google Datastore</li>
+                </ul>
+            </div>
+                  <hr>
+                  <div class="container">
+                <h3><img style="max-width:80px;" src="../images/cloud1.png"> Web Application Frameworks</h3>
+                <ul>
+                    <li>Flask microframework for Web applications</li>
+                    <li>webapp(2) Web framework</li>
+                    <li>Django Web framework</li>
+                </ul>
               </div>
-              <h4>LISÄPALVELUT KOTISIVUILLE</h4>
 
-              <div class="col-md-6">
-
-                <h4><img style="max-width:100px;" src="images/chat.gif"> KANAVA</h4>
-                    <p>Kanava on reaaliaikainen chat-sovellus. Se on kehitetty erityisesti pienten yritysten tarpeisiin tarjoamaan
-                      tehokasta ja nykyaikaista asiakaspalvelua.</p>
-      <hr>
-
-                    <h4><img style="max-width:100px;" src="images/varaamo.png"> VARAAMO</h4>
-                        <p>Varaamo on sähköinen ajanvaraus-sovellus. Se näyttää ajanvaraustilanteen reaaliajassa ja mahdollistaa ajanvarauksen Web-sovelluksella tai mobiililaitteella.</p>
-
-                      </div>
-
-</div>
-</div>
   <hr>
+    <div class="container">
+                <h3><img style="max-width:70px;" src="../images/server.png"> Hosting Web Applications on the Cloud</h3>
+                <ul>
+                    <li>Heroku</li>
+                    <li>Google App Engine</li>
+                    <li>Amazon Web Services</li>
+                    <li>Parse.com</li>
+                </ul>
+
+            </div>
+
+
+  <hr>
+        <!-- Related Projects Row -->
+
+
 
         <!-- Footer -->
         <footer>
             <div class="navbar   navbar-static-bottom">
             <div class="row">
                 <div class="col-lg-12">
-                <p> &copy; 2015 Syfore <img style="max-width:100px;" src="images/responsive.png"></p>
+                    <p> &copy; 2015 Syfore <img style="max-width:100px;" src="../images/responsive.png"></p>
                 </div>
             </div>
             </div>
@@ -140,10 +148,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 
