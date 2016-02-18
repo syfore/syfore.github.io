@@ -106,11 +106,12 @@ h6 {
 }
 
 .section-heading {
+  text-align: center;
     margin-bottom: 30px;
 }
 
 .section-heading-spacer {
-    float: left;
+    text-align: center;
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
